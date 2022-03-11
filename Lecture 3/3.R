@@ -1,0 +1,7 @@
+print(round(19.7654, 2))
+print(log(19.7654))
+print(sin(19.7654))
+print(cos(19.7654))
+print(tan(19.7654))
+print(exp(19.7654))
+print(sqrt(19.7654))
