@@ -51,3 +51,16 @@ print(max(10,20))
 print(GCD(10,20))
 swap(10,20)
 
+x <- readline("Enter any Number :")
+x <- as.integer(x)
+
+if(x %% 2 == 0){
+  print("Even")
+}else{
+  print("Odd")
+}
+n <- readline("Enter A number : ")
+n <- as.integer(n)
+
+z = switch (n,"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+print(z)
